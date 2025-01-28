@@ -20,7 +20,7 @@ randomisePos(orange);
 
 const wishesMap = new Map([
   ["新年快乐", "Happy New Year"],
-  ["恭喜发财", "A wish for prosperity and wealth"],
+  ["恭喜发财", "May you have prosperity and wealth"],
   ["身体健康", "May you have good health"],
   ["万事如意", "May you get everything you wish for"],
   ["心想事成", "May all your wishes come true"],
