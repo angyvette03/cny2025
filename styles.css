@@ -32,7 +32,8 @@
     background-color: #BA0021;
     color: white;
     font-size: 18px;
-    /* padding: 20px; */
+    padding: 20px;
+    text-wrap: balance;
     text-align: center;
 }
 
