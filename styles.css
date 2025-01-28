@@ -25,17 +25,24 @@
 }
 
 .wishButton{
-    width: 30%;
+    width: 20%;
     border-radius: 10px;
-    display: block;
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
     margin: 0 auto;
+    padding: 12px;
     background-color: #BA0021;
     color: white;
     font-size: 18px;
-    padding: 20px;
     text-wrap: balance;
-    text-align: center;
 }
+@media screen and (max-width: 738px) {
+    .wishButton {
+        width: 70%;
+    }
+}
+
 
 .wishes{
     padding: 20px;
