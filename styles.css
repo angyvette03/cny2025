@@ -1,4 +1,4 @@
-.firecrackers{
+.redpackets, .oranges{
     position: absolute;
     top: 0;
     left: 0;
@@ -7,12 +7,12 @@
     pointer-events: none;
     z-index: 9999;
 }
-.firecracker{
+.redpacket, .orange{
     width: 8%;
     animation: falling 3s linear infinite;
     position: absolute;
     left: 0;
-    top: -30px;
+    top: -100px;
 }
 
 @keyframes falling{
@@ -24,38 +24,51 @@
     }
 }
 
-.firecracker:nth-child(1){
-    left: 80%;
-    animation-delay: 0s;
-    animation-duration: 5s;
+.wishButton{
+    width: 20%;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    background-color: #BA0021;
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
 }
-.firecracker:nth-child(2){
-    left: 72%;
-    animation-delay: 1s;
-    animation-duration: 3s;
+
+.wishes{
+    padding: 20px;
 }
-.firecracker:nth-child(3){
-    left: 88%;
-    animation-delay: 2s;
-    animation-duration: 4s;
+
+.chineseWish, .englishWish{
+    text-align: center;
+    font-family: "Marker Felt", cursive;
+
 }
-.firecracker:nth-child(4){
-    left: 21%;
-    animation-delay: 1s;
-    animation-duration: 5s;
+.chineseWish{
+    font-size: 50px;
 }
-.firecracker:nth-child(5){
-    left: 10%;
-    animation-delay: 0s;
-    animation-duration: 3s;
+.englishWish{
+    font-size: 25px;
 }
-.firecracker:nth-child(6){
-    left: 95%;
-    animation-delay: 3s;
-    animation-duration: 5s;
+
+.fade-in{
+    animation: fadeIn 1s;
 }
-.firecracker:nth-child(7){
-    left: 3%;
-    animation-delay: 3s;
-    animation-duration: 4s;
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.countdown{
+    text-align: center;
+    padding: 50px;
+    font: Aboreto;
+    font-family: "Marker Felt", cursive;
+    font-size: 30px;
+}
+#timer{
+    padding-top: 20px;
+    font-size: 50px;
 }
